@@ -1,0 +1,10 @@
+#!/bin/bash
+# set x,y and z to an integer data type
+declare -i x=15
+declare -i y=50
+declare -i z=0
+z=$(( x + y ))
+echo "$x + $y = $z"
+
+
+# interger
